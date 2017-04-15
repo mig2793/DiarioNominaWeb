@@ -1,0 +1,130 @@
+#header-content{width: 100%;z-index: 1000;background: white;box-shadow: 1px 1px 10px black;position: relative;}
+
+.tableobject{display: table;width: 100%;}
+
+.tabcell{display: table-cell;width: 35%;}
+
+.img-mincivil{
+	width: 20%;
+	max-width: 50px !important;
+	min-width: 30px;
+}
+
+.user-period{
+	margin-top: 20px;
+	box-shadow: 1px 1px 8px #5a2b0d;
+	padding: 10px;
+}
+
+#txt-report{
+	vertical-align: bottom;
+}
+
+#open-form{
+	font-size: 25px;
+	top: 5px;
+	left: 10px;
+	z-index: 2000;
+	cursor: pointer;
+	position: fixed;
+}
+
+#log-off{
+	text-align: right;
+	cursor: pointer;
+}
+
+.fixed{
+	position: fixed !important;
+}
+
+#user-hours{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+button{
+	margin-bottom: 10px !important;
+	margin-top: 10px !important;
+}
+
+#img-logo{width: 15%;max-width: 150px;min-width: 100px;margin-bottom: 25px !important;margin: 0 auto;}
+
+#login-content{width: 100%;margin-top: 72px;}
+
+.header{
+    box-shadow: 1px 1px 10px black;
+    /* margin-bottom: 20px; */
+}
+
+.img-background{background-image: url("../img/yati1.png");position: fixed;width: 100%;height: 100%;background-repeat: no-repeat;background-size: cover;z-index: -1;opacity: .7;}
+
+#login-content > form{
+	width: 55%;
+	margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+
+	#login-content > form{
+		width: 100%;
+		margin: 0 auto;
+	}	
+
+	#txt-report{
+		display: none;
+	}
+
+	#log-off > span{
+		display: none;
+	}
+
+	.tabcell{
+		width: 50%;
+	}
+}
+
+textarea{
+	width: 100%;
+	height: 30px;
+	resize: none;
+	font-size: 12px !important;
+}
+
+
+ .panels{
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+ }
+
+ div.accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+div.accordion.active:after {
+    content: "\2212";
+}
+
+.accordion{
+	width: 100%;
+	height: 40px;
+	background-color: #737272;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	margin-top: 1px;
+}
+
+.accordion:hover{
+	background-color: #908b8b;
+}
+
+.accordion:first-child{
+	margin-top: 20px;
+}
