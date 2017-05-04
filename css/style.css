@@ -86,7 +86,7 @@ button{
 
 textarea{
 	width: 100%;
-	height: 30px;
+	height: 50px;
 	resize: none;
 	font-size: 12px !important;
 }
@@ -127,4 +127,31 @@ div.accordion.active:after {
 
 .accordion:first-child{
 	margin-top: 20px;
+}
+
+.load{
+	background-image: url(../img/load.gif);
+	background-size: 80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 3000;
+}
+.brackground-load{
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 2000;
+	display: none;
+	display: none !important;
+}
+canvas{
+	margin: 0 auto;
+	display: block !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 40%;
 }
