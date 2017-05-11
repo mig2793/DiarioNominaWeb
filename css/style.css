@@ -5,7 +5,7 @@
 .tabcell{display: table-cell;width: 35%;}
 
 .img-mincivil{
-	width: 20%;
+	width: 13%;
 	max-width: 50px !important;
 	min-width: 30px;
 }
@@ -48,9 +48,9 @@ button{
 	margin-top: 10px !important;
 }
 
-#img-logo{width: 15%;max-width: 150px;min-width: 100px;margin-bottom: 25px !important;margin: 0 auto;}
+#img-logo{width: 15%;max-width: 150px;min-width: 100px;margin-bottom: 20px !important;margin: 0 auto;}
 
-#login-content{width: 100%;margin-top: 72px;}
+#login-content{width: 100%;margin-top: 40px;}
 
 .header{
     box-shadow: 1px 1px 10px black;
@@ -139,6 +139,7 @@ div.accordion.active:after {
 	height: 100%;
 	z-index: 3000;
 }
+
 .brackground-load{
 	background-color: rgba(0, 0, 0, 0.4);
 	position: fixed;
@@ -146,8 +147,8 @@ div.accordion.active:after {
 	height: 100%;
 	z-index: 2000;
 	display: none;
-	display: none !important;
 }
+
 canvas{
 	margin: 0 auto;
 	display: block !important;

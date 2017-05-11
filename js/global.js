@@ -96,6 +96,7 @@ function validateUserGlobals(){
 	return cargo;
 }
 
+
 function modal(text){
 	var modal = `<!-- Modal -->
 				<div id="myModal" class="modal fade" role="dialog">

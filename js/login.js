@@ -25,7 +25,7 @@ function ValidateUser(data){
 		sessionStorage.setItem("user",JSON.stringify(dataUser.usuarios[0]));
 	}
 	else{
-        text = "Usuario y/o contraseña incorrectos.";
+        text = "Usuario y/o contraseña incorrectos, o no tienes los privilegios para ingresar";
         modal(text);
 	}	
 }

@@ -102,11 +102,11 @@ function okHorasUsers(e){
 			ids.push(dataList[i]._id);
 		}
 		if(getTypuser == "lider"){
-			data = `{'id': [${ids}],'estado': 3}`;
+			data = `{"id": [${ids}],"estado": 3}`;
 			url = "Approvehours";
 			updateServicesHours(data,url)
 		}else if(getTypuser == "GH" || getTypuser == "LacaroGH"){
-			data = `{'id': [${ids}],'estado': 4}`;
+			data = `{"id": [${ids}],"estado": 4}`;
 			url = "Approvehours";
 			updateServicesHours(data,url)
 		}
@@ -118,11 +118,11 @@ function approve(e){
 	var getTypuser = validateUserGlobals();	
 	var ids = e.target.id;
 	if(getTypuser == "lider"){
-		data = `{'id': [${ids}],'estado': 3}`;
+		data = `{"id": [${ids}],"estado": 3}`;
 		url = "Approvehours";
 		updateServicesHours(data,url)
 	}else if(getTypuser == "GH" || getTypuser == "LacaroGH"){
-		data = `{'id': [${ids}],'estado': 4}`;
+		data = `{"id": [${ids}],"estado": 4}`;
 		url = "Approvehours";
 		updateServicesHours(data,url)
 	}	
